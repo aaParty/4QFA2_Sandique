@@ -24,6 +24,7 @@ function computing ()
         z = '</tr>' + z;
     }
     
+    document.getElementById("table").style.opacity = 1;
     document.getElementById("table").innerHTML = z;
 }
 
